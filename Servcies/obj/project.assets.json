@@ -2783,12 +2783,17 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\DEN4EG\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\Evgeni\\.nuget\\packages\\": {}
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\TPO\\Servcies\\Servcies.csproj",
       "projectName": "Servcies",
       "projectPath": "E:\\TPO\\Servcies\\Servcies.csproj",
@@ -2801,6 +2806,16 @@
       "configFilePaths": [
         "C:\\Users\\DEN4EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+      "projectUniqueName": "E:\\Practic\\Servcies\\Servcies.csproj",
+      "projectName": "Servcies",
+      "projectPath": "E:\\Practic\\Servcies\\Servcies.csproj",
+      "packagesPath": "C:\\Users\\Evgeni\\.nuget\\packages\\",
+      "outputPath": "E:\\Practic\\Servcies\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Evgeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2808,15 +2823,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
         "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "E:\\TPO\\Repositories\\Repositories.csproj": {
               "projectPath": "E:\\TPO\\Repositories\\Repositories.csproj"
+=======
+            "E:\\Practic\\Repositories\\Repositories.csproj": {
+              "projectPath": "E:\\Practic\\Repositories\\Repositories.csproj"
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
             }
           }
         }
@@ -2825,11 +2848,14 @@
         "warnAsError": [
           "NU1605"
         ]
+<<<<<<< HEAD
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
+=======
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
       }
     },
     "frameworks": {
@@ -2851,6 +2877,7 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
@@ -2863,4 +2890,10 @@
       "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
     }
   ]
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
 }

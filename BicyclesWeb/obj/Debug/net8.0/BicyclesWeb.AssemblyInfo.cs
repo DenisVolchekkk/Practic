@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BicyclesWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd312b443ad0ae64a47a6e4f183b88a6614b7f6f")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2afcf639e891f65dadfe8da7ed6f43627315312f")]
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
 [assembly: System.Reflection.AssemblyProductAttribute("BicyclesWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BicyclesWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

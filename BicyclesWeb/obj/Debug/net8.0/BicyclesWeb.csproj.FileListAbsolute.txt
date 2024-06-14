@@ -265,6 +265,7 @@ E:\Practic\BicyclesWeb\obj\Debug\net8.0\refint\BicyclesWeb.dll
 E:\Practic\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.pdb
 E:\Practic\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.genruntimeconfig.cache
 E:\Practic\BicyclesWeb\obj\Debug\net8.0\ref\BicyclesWeb.dll
+<<<<<<< HEAD
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.csproj.AssemblyReference.cache
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.GeneratedMSBuildEditorConfig.editorconfig
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.AssemblyInfoInputs.cache
@@ -534,3 +535,5 @@ E:\TPO\BicyclesWeb\obj\Debug\net8.0\Bicycles.C7BD88C8.Up2Date
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.genruntimeconfig.cache
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\ref\BicyclesWeb.dll
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.MvcApplicationPartsAssemblyInfo.cs
+=======
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156

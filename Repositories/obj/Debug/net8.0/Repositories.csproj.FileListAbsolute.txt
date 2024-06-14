@@ -14,6 +14,7 @@ E:\Practic\Repositories\obj\Debug\net8.0\Repositories.dll
 E:\Practic\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 E:\Practic\Repositories\obj\Debug\net8.0\Repositories.pdb
 E:\Practic\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+<<<<<<< HEAD
 E:\TPO\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
 E:\TPO\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
 E:\TPO\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
@@ -32,3 +33,5 @@ E:\TPO\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
 E:\TPO\Repositories\obj\Debug\net8.0\ref\Repositories.dll
 E:\TPO\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
 E:\TPO\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+=======
+>>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
