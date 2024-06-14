@@ -5,60 +5,63 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BicyclesWeb
 build_property.RootNamespace = BicyclesWeb
-build_property.ProjectDir = E:\TPO\BicyclesWeb\
+build_property.ProjectDir = E:\Practic\BicyclesWeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\TPO\BicyclesWeb
+build_property.MSBuildProjectDirectory = E:\Practic\BicyclesWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/TPO/BicyclesWeb/Views/Home/Index.cshtml]
+[E:/Practic/BicyclesWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/Home/Privacy.cshtml]
+[E:/Practic/BicyclesWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/Shared/Error.cshtml]
+[E:/Practic/BicyclesWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Practic/BicyclesWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/SupplierTypes/Create.cshtml]
+[E:/Practic/BicyclesWeb/Views/SupplierTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJUeXBlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/SupplierTypes/Delete.cshtml]
+[E:/Practic/BicyclesWeb/Views/SupplierTypes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJUeXBlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/SupplierTypes/Details.cshtml]
+[E:/Practic/BicyclesWeb/Views/SupplierTypes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJUeXBlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/SupplierTypes/Edit.cshtml]
+[E:/Practic/BicyclesWeb/Views/SupplierTypes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJUeXBlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/SupplierTypes/Index.cshtml]
+[E:/Practic/BicyclesWeb/Views/SupplierTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJUeXBlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/_ViewImports.cshtml]
+[E:/Practic/BicyclesWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/_ViewStart.cshtml]
+[E:/Practic/BicyclesWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/TPO/BicyclesWeb/Views/Shared/_Layout.cshtml]
+[E:/Practic/BicyclesWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9v7ucz4xxi

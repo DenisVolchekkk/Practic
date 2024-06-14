@@ -1,0 +1,16 @@
+E:\Practic\Repositories\bin\Debug\net8.0\Repositories.deps.json
+E:\Practic\Repositories\bin\Debug\net8.0\Repositories.dll
+E:\Practic\Repositories\bin\Debug\net8.0\Repositories.pdb
+E:\Practic\Repositories\bin\Debug\net8.0\Domains.dll
+E:\Practic\Repositories\bin\Debug\net8.0\Domains.pdb
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.csproj.CopyComplete
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.dll
+E:\Practic\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+E:\Practic\Repositories\obj\Debug\net8.0\Repositories.pdb
+E:\Practic\Repositories\obj\Debug\net8.0\ref\Repositories.dll
