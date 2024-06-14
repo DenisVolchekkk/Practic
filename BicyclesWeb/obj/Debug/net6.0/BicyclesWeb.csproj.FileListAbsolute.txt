@@ -6,8 +6,6 @@ E:\TPO\BicyclesWeb\bin\Debug\net6.0\BicyclesWeb.deps.json
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\BicyclesWeb.runtimeconfig.json
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\BicyclesWeb.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\BicyclesWeb.pdb
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\EntityFramework.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\Humanizer.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\MessagePack.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -68,14 +66,12 @@ E:\TPO\BicyclesWeb\bin\Debug\net6.0\NuGet.Packaging.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\NuGet.ProjectModel.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\NuGet.Protocol.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\NuGet.Versioning.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.CodeDom.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Composition.Convention.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Composition.Hosting.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Composition.Runtime.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Composition.TypedParts.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Data.SqlClient.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.Drawing.Common.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -230,11 +226,6 @@ E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.Sql
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\TPO\BicyclesWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
