@@ -5,15 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BicyclesWeb.Models;
+using Domains.Models;
+using Repositories.Repositories.AppRepositories;
 
 namespace BicyclesWeb.Controllers
 {
     public class SupplierTypesController : Controller
     {
-        private readonly BicyclesContext _context;
+        private readonly SupplierTypeRepository _context;
 
-        public SupplierTypesController(BicyclesContext context)
+        public SupplierTypesController(SupplierTypeRepository context)
         {
             _context = context;
         }
@@ -21,21 +22,18 @@ namespace BicyclesWeb.Controllers
         // GET: SupplierTypes
         public async Task<IActionResult> Index()
         {
-              return _context.SupplierTypes != null ? 
-                          View(await _context.SupplierTypes.ToListAsync()) :
-                          Problem("Entity set 'BicyclesContext.SupplierTypes'  is null.");
+            return View(await _context.GetAsync());
         }
 
         // GET: SupplierTypes/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
-            if (id == null || _context.SupplierTypes == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var supplierType = await _context.SupplierTypes
-                .FirstOrDefaultAsync(m => m.SupplierTypeId == id);
+            var supplierType = await _context.GetAsync(id);
             if (supplierType == null)
             {
                 return NotFound();
@@ -59,23 +57,21 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-
-                _context.Add(supplierType);
-                await _context.SaveChangesAsync();
+                _context.AddAsync(supplierType);
                 return RedirectToAction(nameof(Index));
             }
             return View(supplierType);
         }
 
         // GET: SupplierTypes/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null || _context.SupplierTypes == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var supplierType = await _context.SupplierTypes.FindAsync(id);
+            var supplierType = await _context.GetAsync(id);
             if (supplierType == null)
             {
                 return NotFound();
@@ -99,19 +95,11 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.Update(supplierType);
-                    await _context.SaveChangesAsync();
+                    _context.UpdateAsync(supplierType);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!SupplierTypeExists(supplierType.SupplierTypeId))
-                    {
                         return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -119,15 +107,14 @@ namespace BicyclesWeb.Controllers
         }
 
         // GET: SupplierTypes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null || _context.SupplierTypes == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var supplierType = await _context.SupplierTypes
-                .FirstOrDefaultAsync(m => m.SupplierTypeId == id);
+            var supplierType = await _context.GetAsync(id);
             if (supplierType == null)
             {
                 return NotFound();
@@ -141,23 +128,15 @@ namespace BicyclesWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.SupplierTypes == null)
-            {
-                return Problem("Entity set 'BicyclesContext.SupplierTypes'  is null.");
-            }
-            var supplierType = await _context.SupplierTypes.FindAsync(id);
+            var supplierType = await _context.GetAsync(id);
             if (supplierType != null)
             {
-                _context.SupplierTypes.Remove(supplierType);
+                _context.DeleteAsync(supplierType);
             }
-            
-            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
-        private bool SupplierTypeExists(int id)
-        {
-          return (_context.SupplierTypes?.Any(e => e.SupplierTypeId == id)).GetValueOrDefault();
-        }
+
     }
 }
