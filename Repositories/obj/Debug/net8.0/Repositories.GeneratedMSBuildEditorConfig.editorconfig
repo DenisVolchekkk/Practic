@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repositories
-<<<<<<< HEAD
 build_property.ProjectDir = E:\TPO\Repositories\
-=======
-build_property.ProjectDir = E:\Practic\Repositories\
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

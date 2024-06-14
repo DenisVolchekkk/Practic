@@ -9,26 +9,13 @@ namespace Repositories.Context
         public BicyclesContext()
         {
         }
-<<<<<<< HEAD
 
         public BicyclesContext(DbContextOptions<BicyclesContext> options)
             : base(options)
         {
         }
 
-=======
-<<<<<<< HEAD:Repositories/Context/BicyclesContext.cs
-        public virtual DbSet<Bicycle> Bicycles { get; set; }
-        public virtual DbSet<Part> Parts { get; set; }
-        public virtual DbSet<PartBicycle> PartBicycles { get; set; }
-        public virtual DbSet<PartOrder> PartOrders { get; set; }
-        public virtual DbSet<Supplier> Suppliers { get; set; }
-=======
->>>>>>> dd312b443ad0ae64a47a6e4f183b88a6614b7f6f:BicyclesWeb/Models/BicyclesContext.cs
-        public virtual DbSet<SupplierType> SupplierTypes { get; set; }
-        public virtual DbSet<Supplier> Suppliers { get; set; }
-        public virtual DbSet<Part> Parts { get; set; }
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
+
         public virtual DbSet<Bicycle> Bicycles { get; set; }
 
         public virtual DbSet<Part> Parts { get; set; }

@@ -3,7 +3,6 @@ E:\TPO\Servcies\obj\Debug\net8.0\Servcies.GeneratedMSBuildEditorConfig.editorcon
 E:\TPO\Servcies\obj\Debug\net8.0\Servcies.AssemblyInfoInputs.cache
 E:\TPO\Servcies\obj\Debug\net8.0\Servcies.AssemblyInfo.cs
 E:\TPO\Servcies\obj\Debug\net8.0\Servcies.csproj.CoreCompileInputs.cache
-E:\TPO\Servcies\obj\Debug\net8.0\Servcies.sourcelink.json
 E:\TPO\Servcies\bin\Debug\net8.0\Servcies.deps.json
 E:\TPO\Servcies\bin\Debug\net8.0\Servcies.dll
 E:\TPO\Servcies\bin\Debug\net8.0\Servcies.pdb
@@ -16,3 +15,4 @@ E:\TPO\Servcies\obj\Debug\net8.0\Servcies.dll
 E:\TPO\Servcies\obj\Debug\net8.0\refint\Servcies.dll
 E:\TPO\Servcies\obj\Debug\net8.0\Servcies.pdb
 E:\TPO\Servcies\obj\Debug\net8.0\ref\Servcies.dll
+E:\TPO\Servcies\obj\Debug\net8.0\Servcies.sourcelink.json

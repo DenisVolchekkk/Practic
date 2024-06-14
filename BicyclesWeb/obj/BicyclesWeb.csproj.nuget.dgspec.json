@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practic\\BicyclesWeb\\BicyclesWeb.csproj": {}
+    "E:\\TPO\\BicyclesWeb\\BicyclesWeb.csproj": {}
   },
   "projects": {
-    "E:\\Practic\\BicyclesWeb\\BicyclesWeb.csproj": {
+    "E:\\TPO\\BicyclesWeb\\BicyclesWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practic\\BicyclesWeb\\BicyclesWeb.csproj",
+        "projectUniqueName": "E:\\TPO\\BicyclesWeb\\BicyclesWeb.csproj",
         "projectName": "BicyclesWeb",
-        "projectPath": "E:\\Practic\\BicyclesWeb\\BicyclesWeb.csproj",
-        "packagesPath": "C:\\Users\\Evgeni\\.nuget\\packages\\",
-        "outputPath": "E:\\Practic\\BicyclesWeb\\obj\\",
+        "projectPath": "E:\\TPO\\BicyclesWeb\\BicyclesWeb.csproj",
+        "packagesPath": "C:\\Users\\DEN4EG\\.nuget\\packages\\",
+        "outputPath": "E:\\TPO\\BicyclesWeb\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Evgeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DEN4EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,7 +33,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "E:\\TPO\\Domains\\Domains.csproj": {
                 "projectPath": "E:\\TPO\\Domains\\Domains.csproj"
               },
@@ -38,16 +41,6 @@
               },
               "E:\\TPO\\Servcies\\Servcies.csproj": {
                 "projectPath": "E:\\TPO\\Servcies\\Servcies.csproj"
-=======
-              "E:\\Practic\\Domains\\Domains.csproj": {
-                "projectPath": "E:\\Practic\\Domains\\Domains.csproj"
-              },
-              "E:\\Practic\\Repositories\\Repositories.csproj": {
-                "projectPath": "E:\\Practic\\Repositories\\Repositories.csproj"
-              },
-              "E:\\Practic\\Servcies\\Servcies.csproj": {
-                "projectPath": "E:\\Practic\\Servcies\\Servcies.csproj"
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
               }
             }
           }
@@ -78,7 +71,6 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.6, )"
-<<<<<<< HEAD
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -89,8 +81,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -126,7 +116,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -146,23 +135,6 @@
         "configFilePaths": [
           "C:\\Users\\DEN4EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Practic\\Domains\\Domains.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Practic\\Domains\\Domains.csproj",
-        "projectName": "Domains",
-        "projectPath": "E:\\Practic\\Domains\\Domains.csproj",
-        "packagesPath": "C:\\Users\\Evgeni\\.nuget\\packages\\",
-        "outputPath": "E:\\Practic\\Domains\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Evgeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,10 +142,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -186,14 +155,11 @@
           "warnAsError": [
             "NU1605"
           ]
-<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         }
       },
       "frameworks": {
@@ -215,7 +181,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -235,23 +200,6 @@
         "configFilePaths": [
           "C:\\Users\\DEN4EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Practic\\Repositories\\Repositories.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Practic\\Repositories\\Repositories.csproj",
-        "projectName": "Repositories",
-        "projectPath": "E:\\Practic\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\Evgeni\\.nuget\\packages\\",
-        "outputPath": "E:\\Practic\\Repositories\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Evgeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -259,23 +207,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "E:\\TPO\\Domains\\Domains.csproj": {
                 "projectPath": "E:\\TPO\\Domains\\Domains.csproj"
-=======
-              "E:\\Practic\\Domains\\Domains.csproj": {
-                "projectPath": "E:\\Practic\\Domains\\Domains.csproj"
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
               }
             }
           }
@@ -284,14 +224,11 @@
           "warnAsError": [
             "NU1605"
           ]
-<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         }
       },
       "frameworks": {
@@ -302,10 +239,7 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
-<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
             },
@@ -314,15 +248,8 @@
               "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
-=======
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.6, )"
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
             }
           },
           "imports": [
@@ -341,7 +268,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -361,23 +287,6 @@
         "configFilePaths": [
           "C:\\Users\\DEN4EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Practic\\Servcies\\Servcies.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Practic\\Servcies\\Servcies.csproj",
-        "projectName": "Servcies",
-        "projectPath": "E:\\Practic\\Servcies\\Servcies.csproj",
-        "packagesPath": "C:\\Users\\Evgeni\\.nuget\\packages\\",
-        "outputPath": "E:\\Practic\\Servcies\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Evgeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -385,23 +294,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "E:\\TPO\\Repositories\\Repositories.csproj": {
                 "projectPath": "E:\\TPO\\Repositories\\Repositories.csproj"
-=======
-              "E:\\Practic\\Repositories\\Repositories.csproj": {
-                "projectPath": "E:\\Practic\\Repositories\\Repositories.csproj"
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
               }
             }
           }
@@ -410,14 +311,11 @@
           "warnAsError": [
             "NU1605"
           ]
-<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         }
       },
       "frameworks": {
@@ -439,11 +337,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         }
       }
     }

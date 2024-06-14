@@ -12,7 +12,6 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6",
           "Microsoft.AspNetCore.Identity.UI": "8.0.6",
-<<<<<<< HEAD
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
@@ -20,12 +19,6 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
           "Repositories": "1.0.0",
           "Servcies": "1.0.0"
-=======
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.6",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
-          "Repositories": "1.0.0"
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
         },
         "runtime": {
           "BicyclesWeb.dll": {}
@@ -1992,12 +1985,13 @@
         "dependencies": {
           "Domains": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6"
+          "Microsoft.EntityFrameworkCore.Design": "8.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.6"
         },
         "runtime": {
           "Repositories.dll": {}
         }
-<<<<<<< HEAD
       },
       "Servcies/1.0.0": {
         "dependencies": {
@@ -2006,8 +2000,6 @@
         "runtime": {
           "Servcies.dll": {}
         }
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
       }
     }
   },
@@ -3202,14 +3194,11 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-<<<<<<< HEAD
     },
     "Servcies/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
     }
   }
 }

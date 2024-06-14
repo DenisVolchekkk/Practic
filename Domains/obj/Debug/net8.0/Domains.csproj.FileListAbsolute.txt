@@ -1,16 +1,3 @@
-E:\Practic\Domains\bin\Debug\net8.0\Domains.deps.json
-E:\Practic\Domains\bin\Debug\net8.0\Domains.dll
-E:\Practic\Domains\bin\Debug\net8.0\Domains.pdb
-E:\Practic\Domains\obj\Debug\net8.0\Domains.GeneratedMSBuildEditorConfig.editorconfig
-E:\Practic\Domains\obj\Debug\net8.0\Domains.AssemblyInfoInputs.cache
-E:\Practic\Domains\obj\Debug\net8.0\Domains.AssemblyInfo.cs
-E:\Practic\Domains\obj\Debug\net8.0\Domains.csproj.CoreCompileInputs.cache
-E:\Practic\Domains\obj\Debug\net8.0\Domains.sourcelink.json
-E:\Practic\Domains\obj\Debug\net8.0\Domains.dll
-E:\Practic\Domains\obj\Debug\net8.0\refint\Domains.dll
-E:\Practic\Domains\obj\Debug\net8.0\Domains.pdb
-E:\Practic\Domains\obj\Debug\net8.0\ref\Domains.dll
-<<<<<<< HEAD
 E:\TPO\Domains\bin\Debug\net8.0\Domains.deps.json
 E:\TPO\Domains\bin\Debug\net8.0\Domains.dll
 E:\TPO\Domains\bin\Debug\net8.0\Domains.pdb
@@ -23,5 +10,3 @@ E:\TPO\Domains\obj\Debug\net8.0\Domains.dll
 E:\TPO\Domains\obj\Debug\net8.0\refint\Domains.dll
 E:\TPO\Domains\obj\Debug\net8.0\Domains.pdb
 E:\TPO\Domains\obj\Debug\net8.0\ref\Domains.dll
-=======
->>>>>>> b03a2483e4afa026ff4f5255ed0ea11271f32156
