@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Детали</h1>
 
 <div>
-    <h4>PartBicycle</h4>
+    <h4>Детали велосипеда</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -21,17 +21,17 @@
             @Html.DisplayNameFor(model => model.Bicycle)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Bicycle.BicycleId)
+            @Html.DisplayFor(model => model.Bicycle.ModelName)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Part)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Part.PartId)
+            @Html.DisplayFor(model => model.Part.PartName)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.PartBicycleId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.PartBicycleId">Обновить</a> |
+    <a asp-action="Index">Вернуться</a>
 </div>

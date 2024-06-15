@@ -8,6 +8,7 @@ namespace Domains.Models
     {
         [Key]
         public int BicycleId { get; set; }
+        [Display(Name = "Модель")]
         public string? ModelName { get; set; }
 
         public virtual ICollection<PartBicycle> PartBicycles { get; set; } = new List<PartBicycle>();

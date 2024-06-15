@@ -35,6 +35,8 @@ namespace BicyclesWeb
             builder.Services.AddScoped<SupplierTypeRepository>();
             builder.Services.AddScoped<SupplierTypeDataService>();
 
+            builder.Services.AddScoped<PartOrderRepository>();
+            builder.Services.AddScoped<PartOrderDataService>();
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())

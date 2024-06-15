@@ -7,14 +7,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domains.Models;
 using Repositories.Context;
+using Repositories.Repositories.AppRepositories;
+
 
 namespace BicyclesWeb.Controllers
 {
     public class BicyclesController : Controller
     {
-        private readonly BicyclesContext _context;
+        private readonly BicycleRepository _context;
 
-        public BicyclesController(BicyclesContext context)
+        public BicyclesController(BicycleRepository context)
         {
             _context = context;
         }
@@ -22,19 +24,18 @@ namespace BicyclesWeb.Controllers
         // GET: Bicycles
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Bicycles.ToListAsync());
+            return View(await _context.GetAsync());
         }
 
         // GET: Bicycles/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var bicycle = await _context.Bicycles
-                .FirstOrDefaultAsync(m => m.BicycleId == id);
+            var bicycle = await _context.GetAsync(id);
             if (bicycle == null)
             {
                 return NotFound();
@@ -58,22 +59,21 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(bicycle);
-                await _context.SaveChangesAsync();
+                _context.AddAsync(bicycle);
                 return RedirectToAction(nameof(Index));
             }
             return View(bicycle);
         }
 
         // GET: Bicycles/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var bicycle = await _context.Bicycles.FindAsync(id);
+            var bicycle = await _context.GetAsync(id);
             if (bicycle == null)
             {
                 return NotFound();
@@ -97,8 +97,7 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.Update(bicycle);
-                    await _context.SaveChangesAsync();
+                    _context.UpdateAsync(bicycle);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -117,15 +116,14 @@ namespace BicyclesWeb.Controllers
         }
 
         // GET: Bicycles/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var bicycle = await _context.Bicycles
-                .FirstOrDefaultAsync(m => m.BicycleId == id);
+            var bicycle = await _context.GetAsync(id);
             if (bicycle == null)
             {
                 return NotFound();
@@ -139,10 +137,10 @@ namespace BicyclesWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var bicycle = await _context.Bicycles.FindAsync(id);
+            var bicycle = await _context.GetAsync(id);
             if (bicycle != null)
             {
-                _context.Bicycles.Remove(bicycle);
+                _context.DeleteAsync(bicycle);
             }
 
             await _context.SaveChangesAsync();
@@ -151,7 +149,7 @@ namespace BicyclesWeb.Controllers
 
         private bool BicycleExists(int id)
         {
-            return _context.Bicycles.Any(e => e.BicycleId == id);
+            return _context.GetAsync().Result.Any(e => e.BicycleId == id);
         }
     }
 }

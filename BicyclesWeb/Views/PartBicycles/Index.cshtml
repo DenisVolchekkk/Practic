@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Список</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Создать</a>
 </p>
 <table class="table">
     <thead>
@@ -32,15 +32,15 @@
                 @Html.DisplayFor(modelItem => item.QuantityRequired)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Bicycle.BicycleId)
+                @Html.DisplayFor(modelItem => item.Bicycle.ModelName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Part.PartId)
+                @Html.DisplayFor(modelItem => item.Part.PartName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PartBicycleId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PartBicycleId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PartBicycleId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.PartBicycleId">Обновить</a> |
+                <a asp-action="Details" asp-route-id="@item.PartBicycleId">Детали</a> |
+                <a asp-action="Delete" asp-route-id="@item.PartBicycleId">Удалить</a>
             </td>
         </tr>
 }

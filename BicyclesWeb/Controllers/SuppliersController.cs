@@ -7,36 +7,37 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domains.Models;
 using Repositories.Context;
+using Repositories.Repositories.AppRepositories;
 
 namespace BicyclesWeb.Controllers
 {
     public class SuppliersController : Controller
     {
-        private readonly BicyclesContext _context;
+        private readonly SupplierRepository _context;
+        private readonly SupplierTypeRepository _SpContext;
 
-        public SuppliersController(BicyclesContext context)
+        public SuppliersController(SupplierRepository context, SupplierTypeRepository spContext)
         {
             _context = context;
+            _SpContext = spContext;
         }
 
         // GET: Suppliers
         public async Task<IActionResult> Index()
         {
-            var bicyclesContext = _context.Suppliers.Include(s => s.SupplierType);
-            return View(await bicyclesContext.ToListAsync());
+            var bicyclesContext = _context.GetAsync();
+            return View(await bicyclesContext);
         }
 
         // GET: Suppliers/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var supplier = await _context.Suppliers
-                .Include(s => s.SupplierType)
-                .FirstOrDefaultAsync(m => m.SupplierId == id);
+            var supplier = await _context.GetAsync(id);
             if (supplier == null)
             {
                 return NotFound();
@@ -48,7 +49,7 @@ namespace BicyclesWeb.Controllers
         // GET: Suppliers/Create
         public IActionResult Create()
         {
-            ViewData["SupplierTypeId"] = new SelectList(_context.SupplierTypes, "SupplierTypeId", "SupplierTypeId");
+            ViewData["SupplierTypeId"] = new SelectList(_SpContext.GetAsync().Result, "SupplierTypeId", "SupplierTypeName");
             return View();
         }
 
@@ -61,28 +62,27 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(supplier);
-                await _context.SaveChangesAsync();
+                _context.AddAsync(supplier);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SupplierTypeId"] = new SelectList(_context.SupplierTypes, "SupplierTypeId", "SupplierTypeId", supplier.SupplierTypeId);
+            ViewData["SupplierTypeId"] = new SelectList(_SpContext.GetAsync().Result, "SupplierTypeId", "SupplierTypeName", supplier.SupplierTypeId);
             return View(supplier);
         }
 
         // GET: Suppliers/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var supplier = await _context.Suppliers.FindAsync(id);
+            var supplier = await _context.GetAsync(id);
             if (supplier == null)
             {
                 return NotFound();
             }
-            ViewData["SupplierTypeId"] = new SelectList(_context.SupplierTypes, "SupplierTypeId", "SupplierTypeId", supplier.SupplierTypeId);
+            ViewData["SupplierTypeId"] = new SelectList(_SpContext.GetAsync().Result, "SupplierTypeId", "SupplierTypeName", supplier.SupplierTypeId);
             return View(supplier);
         }
 
@@ -102,8 +102,7 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.Update(supplier);
-                    await _context.SaveChangesAsync();
+                    _context.UpdateAsync(supplier);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -118,21 +117,19 @@ namespace BicyclesWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SupplierTypeId"] = new SelectList(_context.SupplierTypes, "SupplierTypeId", "SupplierTypeId", supplier.SupplierTypeId);
+            ViewData["SupplierTypeId"] = new SelectList(_SpContext.GetAsync().Result, "SupplierTypeId", "SupplierTypeName", supplier.SupplierTypeId);
             return View(supplier);
         }
 
         // GET: Suppliers/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var supplier = await _context.Suppliers
-                .Include(s => s.SupplierType)
-                .FirstOrDefaultAsync(m => m.SupplierId == id);
+            var supplier = await _context.GetAsync(id);
             if (supplier == null)
             {
                 return NotFound();
@@ -146,19 +143,18 @@ namespace BicyclesWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var supplier = await _context.Suppliers.FindAsync(id);
+            var supplier = await _context.GetAsync(id);
             if (supplier != null)
             {
-                _context.Suppliers.Remove(supplier);
+                _context.DeleteAsync(supplier);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool SupplierExists(int id)
         {
-            return _context.Suppliers.Any(e => e.SupplierId == id);
+            return _context.GetAsync().Result.Any(e => e.SupplierId == id);
         }
     }
 }

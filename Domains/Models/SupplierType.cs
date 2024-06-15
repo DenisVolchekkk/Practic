@@ -8,9 +8,11 @@ namespace Domains.Models
     {
 
         [Key]
-        public int SupplierTypeId { get; set; }
-        public string? SupplierTypeName { get; set; }
 
+        public int SupplierTypeId { get; set; }
+        [Display(Name = "Тип поставщика")]
+        public string? SupplierTypeName { get; set; }
+        [Display(Name = "Поставщик")]
         public virtual ICollection<Supplier> Suppliers { get; set; } = new List<Supplier>();
     }
 }

@@ -7,37 +7,39 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domains.Models;
 using Repositories.Context;
+using Repositories.Repositories.AppRepositories;
 
 namespace BicyclesWeb.Controllers
 {
     public class PartBicyclesController : Controller
     {
-        private readonly BicyclesContext _context;
+        private readonly PartRepository _PContext;
+        private readonly PartBicycleRepository _context;
+        private readonly BicycleRepository _BContext;
 
-        public PartBicyclesController(BicyclesContext context)
+
+        public PartBicyclesController(PartBicycleRepository context, PartRepository pcontext, BicycleRepository bcontext)
         {
             _context = context;
+            _PContext = pcontext;
+            _BContext = bcontext;
         }
 
         // GET: PartBicycles
         public async Task<IActionResult> Index()
         {
-            var bicyclesContext = _context.PartBicycles.Include(p => p.Bicycle).Include(p => p.Part);
-            return View(await bicyclesContext.ToListAsync());
+            return View(await _context.GetAsync());
         }
 
         // GET: PartBicycles/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var partBicycle = await _context.PartBicycles
-                .Include(p => p.Bicycle)
-                .Include(p => p.Part)
-                .FirstOrDefaultAsync(m => m.PartBicycleId == id);
+            var partBicycle = await _context.GetAsync(id);
             if (partBicycle == null)
             {
                 return NotFound();
@@ -49,8 +51,8 @@ namespace BicyclesWeb.Controllers
         // GET: PartBicycles/Create
         public IActionResult Create()
         {
-            ViewData["BicycleId"] = new SelectList(_context.Bicycles, "BicycleId", "BicycleId");
-            ViewData["PartId"] = new SelectList(_context.Parts, "PartId", "PartId");
+            ViewData["BicycleId"] = new SelectList(_BContext.GetAsync().Result, "BicycleId", "ModelName");
+            ViewData["PartId"] = new SelectList(_PContext.GetAsync().Result, "PartId", "PartName");
             return View();
         }
 
@@ -63,30 +65,29 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(partBicycle);
-                await _context.SaveChangesAsync();
+                _context.AddAsync(partBicycle);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BicycleId"] = new SelectList(_context.Bicycles, "BicycleId", "BicycleId", partBicycle.BicycleId);
-            ViewData["PartId"] = new SelectList(_context.Parts, "PartId", "PartId", partBicycle.PartId);
+            ViewData["BicycleId"] = new SelectList(_BContext.GetAsync().Result, "BicycleId", "ModelName", partBicycle.BicycleId);
+            ViewData["PartId"] = new SelectList(_PContext.GetAsync().Result, "PartId", "PartName", partBicycle.PartId);
             return View(partBicycle);
         }
 
         // GET: PartBicycles/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var partBicycle = await _context.PartBicycles.FindAsync(id);
+            var partBicycle = await _context.GetAsync(id);
             if (partBicycle == null)
             {
                 return NotFound();
             }
-            ViewData["BicycleId"] = new SelectList(_context.Bicycles, "BicycleId", "BicycleId", partBicycle.BicycleId);
-            ViewData["PartId"] = new SelectList(_context.Parts, "PartId", "PartId", partBicycle.PartId);
+            ViewData["BicycleId"] = new SelectList(_BContext.GetAsync().Result, "BicycleId", "ModelName", partBicycle.BicycleId);
+            ViewData["PartId"] = new SelectList(_PContext.GetAsync().Result, "PartId", "PartName", partBicycle.PartId);
             return View(partBicycle);
         }
 
@@ -106,8 +107,7 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.Update(partBicycle);
-                    await _context.SaveChangesAsync();
+                    _context.UpdateAsync(partBicycle);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -122,23 +122,20 @@ namespace BicyclesWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BicycleId"] = new SelectList(_context.Bicycles, "BicycleId", "BicycleId", partBicycle.BicycleId);
-            ViewData["PartId"] = new SelectList(_context.Parts, "PartId", "PartId", partBicycle.PartId);
+            ViewData["BicycleId"] = new SelectList(_BContext.GetAsync().Result, "BicycleId", "ModelName", partBicycle.BicycleId);
+            ViewData["PartId"] = new SelectList(_PContext.GetAsync().Result, "PartId", "PartName", partBicycle.PartId);
             return View(partBicycle);
         }
 
         // GET: PartBicycles/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var partBicycle = await _context.PartBicycles
-                .Include(p => p.Bicycle)
-                .Include(p => p.Part)
-                .FirstOrDefaultAsync(m => m.PartBicycleId == id);
+            var partBicycle = await _context.GetAsync(id);
             if (partBicycle == null)
             {
                 return NotFound();
@@ -152,19 +149,17 @@ namespace BicyclesWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var partBicycle = await _context.PartBicycles.FindAsync(id);
+            var partBicycle = await _context.GetAsync(id);
             if (partBicycle != null)
             {
-                _context.PartBicycles.Remove(partBicycle);
+                _context.DeleteAsync(partBicycle);
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PartBicycleExists(int id)
         {
-            return _context.PartBicycles.Any(e => e.PartBicycleId == id);
+            return _context.GetAsync().Result.Any(e => e.PartBicycleId == id);
         }
     }
 }
