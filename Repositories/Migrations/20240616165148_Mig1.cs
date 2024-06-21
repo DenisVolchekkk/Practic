@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace BicyclesWeb.Migrations
+namespace Repositories.Migrations
 {
-    public partial class AddCompanyMigration : Migration
+    /// <inheritdoc />
+    public partial class Mig1 : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -15,7 +17,7 @@ namespace BicyclesWeb.Migrations
                 {
                     BicycleId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ModelName = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ModelName = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -41,8 +43,8 @@ namespace BicyclesWeb.Migrations
                 {
                     PartOrderId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    OrderDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    ExpectedDeliveryDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ExpectedDeliveryDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BicycleId = table.Column<int>(type: "int", nullable: false),
                     CountofBicycles = table.Column<int>(type: "int", nullable: false)
                 },
@@ -63,10 +65,10 @@ namespace BicyclesWeb.Migrations
                 {
                     SupplierId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    SupplierName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ContactInfo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SupplierTypeId = table.Column<int>(type: "int", nullable: true)
+                    SupplierName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ContactInfo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SupplierTypeId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -75,7 +77,8 @@ namespace BicyclesWeb.Migrations
                         name: "FK_Suppliers_SupplierTypes_SupplierTypeId",
                         column: x => x.SupplierTypeId,
                         principalTable: "SupplierTypes",
-                        principalColumn: "SupplierTypeId");
+                        principalColumn: "SupplierTypeId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -84,9 +87,9 @@ namespace BicyclesWeb.Migrations
                 {
                     PartId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PartName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PartDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SupplierId = table.Column<int>(type: "int", nullable: true)
+                    PartName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PartDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SupplierId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -95,7 +98,8 @@ namespace BicyclesWeb.Migrations
                         name: "FK_Parts_Suppliers_SupplierId",
                         column: x => x.SupplierId,
                         principalTable: "Suppliers",
-                        principalColumn: "SupplierId");
+                        principalColumn: "SupplierId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -104,9 +108,9 @@ namespace BicyclesWeb.Migrations
                 {
                     PartBicycleId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PartId = table.Column<int>(type: "int", nullable: true),
-                    BicycleId = table.Column<int>(type: "int", nullable: true),
-                    QuantityRequired = table.Column<int>(type: "int", nullable: true)
+                    PartId = table.Column<int>(type: "int", nullable: false),
+                    BicycleId = table.Column<int>(type: "int", nullable: false),
+                    QuantityRequired = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -115,12 +119,14 @@ namespace BicyclesWeb.Migrations
                         name: "FK_PartBicycles_Bicycles_BicycleId",
                         column: x => x.BicycleId,
                         principalTable: "Bicycles",
-                        principalColumn: "BicycleId");
+                        principalColumn: "BicycleId",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_PartBicycles_Parts_PartId",
                         column: x => x.PartId,
                         principalTable: "Parts",
-                        principalColumn: "PartId");
+                        principalColumn: "PartId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -149,6 +155,7 @@ namespace BicyclesWeb.Migrations
                 column: "SupplierTypeId");
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

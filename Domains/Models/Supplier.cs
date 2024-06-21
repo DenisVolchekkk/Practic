@@ -10,14 +10,14 @@ namespace Domains.Models
         [Display(Name = "Поставщик")]
         public int SupplierId { get; set; }
         [Display(Name = "Поставщик")]
-        public string? SupplierName { get; set; }
+        public string SupplierName { get; set; }
         [Display(Name = "Номер")]
-        public string? ContactInfo { get; set; }
+        public string ContactInfo { get; set; }
         [Display(Name = "Адресс")]
 
-        public string? Address { get; set; }
+        public string Address { get; set; }
         [Display(Name = "Тип поставщика")]
-        public int? SupplierTypeId { get; set; }
+        public int SupplierTypeId { get; set; }
         [Display(Name = "Тип поставщика")]
 
         public virtual SupplierType? SupplierType { get; set; }

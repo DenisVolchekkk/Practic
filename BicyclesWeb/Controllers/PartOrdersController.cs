@@ -62,7 +62,7 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.AddAsync(partOrder);
+                await _context.AddAsync(partOrder);
                 return RedirectToAction(nameof(Index));
             }
             ViewData["BicycleId"] = new SelectList(_BContext.GetAsync().Result, "BicycleId", "ModelName", partOrder.BicycleId);
@@ -102,7 +102,7 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.UpdateAsync(partOrder);
+                    await _context.UpdateAsync(partOrder);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -146,7 +146,7 @@ namespace BicyclesWeb.Controllers
             var partOrder = await _context.GetAsync(id);
             if (partOrder != null)
             {
-                _context.DeleteAsync(partOrder);
+                await _context.DeleteAsync(partOrder);
             }
 
             return RedirectToAction(nameof(Index));

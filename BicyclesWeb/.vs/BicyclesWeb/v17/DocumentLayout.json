@@ -3,16 +3,154 @@
   "WorkspaceRootPath": "E:\\TPO\\BicyclesWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\suppliertypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\suppliertypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\bicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\bicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\partbicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\partbicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\partorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\partorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\suppliertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\partrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\partbicycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\partorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\partbicyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\TPO\\Repositories\\Migrations\\20240616165148_Mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\TPO\\Repositories\\Migrations\\20240616165130_Mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\context\\bicyclescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\bicycledataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\suppliertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\bicycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\partorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\suppliertypedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\domains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\bicyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\bicycles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\bicycles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\partbicycledataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\bicycles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\bicycles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\bicycles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,34 +209,6 @@
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\partorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\parts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\parts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -115,43 +225,6 @@
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\suppliertypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\suppliertypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\bicycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\partbicycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\partorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\models\\suppliertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -165,53 +238,10 @@
       "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\partdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\suppliertypedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\servcies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\partorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\bicyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\partbicyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\partorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\partorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\partbicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\partbicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\partrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\suppliertypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\suppliertypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\bicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\bicyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -221,38 +251,11 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A12A6494-B24C-48F0-B794-A8BCE0147164}|..\\Domains\\Domains.csproj|e:\\tpo\\domains\\domains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\visual studio\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\bicyclesweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:bicyclesweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\context\\bicyclescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\apprepositories\\suppliertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\repositories\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\migrations\\bicyclescontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\migrations\\20240614163928_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E535A0B-D507-4411-AA52-831D31E3E508}|..\\Repositories\\Repositories.csproj|e:\\tpo\\repositories\\migrations\\20240614161107_addcompanymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\TPO\\Repositories\\Migrations\\20240614210412_Mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -270,12 +273,6 @@
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\partbicycledataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4100CB6-1EB7-47E8-BD88-92AAF016A878}|..\\Servcies\\Servcies.csproj|e:\\tpo\\servcies\\dbdataservcies\\bicycledataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|e:\\tpo\\bicyclesweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BD4CE85-4FEE-47FA-A73D-1D06B038865F}|BicyclesWeb.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -291,635 +288,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bicycles\\Index.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Index.cshtml",
-              "RelativeToolTip": "Views\\Bicycles\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:28:13.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bicycles\\Edit.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Bicycles\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:27:56.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bicycles\\Details.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Details.cshtml",
-              "RelativeToolTip": "Views\\Bicycles\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:27:38.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bicycles\\Create.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Create.cshtml",
-              "RelativeToolTip": "Views\\Bicycles\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:27:11.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartBicycles\\Edit.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Edit.cshtml",
-              "RelativeToolTip": "Views\\PartBicycles\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:33:52.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartBicycles\\Delete.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Delete.cshtml",
-              "RelativeToolTip": "Views\\PartBicycles\\Delete.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:07:42.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T17:39:30.254Z",
+              "Title": "BicyclesController.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\BicyclesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BicyclesController.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\BicyclesController.cs",
+              "RelativeToolTip": "Controllers\\BicyclesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwD0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T20:25:09.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCgAAAB7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T17:39:30.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartBicycles\\Index.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Index.cshtml",
-              "RelativeToolTip": "Views\\PartBicycles\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:08:01.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartOrders\\Create.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Create.cshtml",
-              "RelativeToolTip": "Views\\PartOrders\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:28:44.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartOrders\\Delete.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Delete.cshtml",
-              "RelativeToolTip": "Views\\PartOrders\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:28:47.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartBicycles\\Details.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Details.cshtml",
-              "RelativeToolTip": "Views\\PartBicycles\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:07:53.012Z",
+              "Title": "SupplierTypesController.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\SupplierTypesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierTypesController.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\SupplierTypesController.cs",
+              "RelativeToolTip": "Controllers\\SupplierTypesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T20:20:15.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bicycles\\Delete.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Bicycles\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:17:52.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartOrders\\Details.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Details.cshtml",
-              "RelativeToolTip": "Views\\PartOrders\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:28:59.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartOrders\\Edit.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Edit.cshtml",
-              "RelativeToolTip": "Views\\PartOrders\\Edit.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:24:17.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartBicycles\\Create.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Create.cshtml",
-              "RelativeToolTip": "Views\\PartBicycles\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:07:34.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Parts\\Create.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Create.cshtml",
-              "RelativeToolTip": "Views\\Parts\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:39:01.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Parts\\Delete.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Parts\\Delete.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:39:03.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Parts\\Details.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Details.cshtml",
-              "RelativeToolTip": "Views\\Parts\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:39:12.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Suppliers\\Create.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Create.cshtml",
-              "RelativeToolTip": "Views\\Suppliers\\Create.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:24:57.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Parts\\Edit.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Parts\\Edit.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:39:11.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Parts\\Index.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Index.cshtml",
-              "RelativeToolTip": "Views\\Parts\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:39:19.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Suppliers\\Delete.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Suppliers\\Delete.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:27:51.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Suppliers\\Details.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Details.cshtml",
-              "RelativeToolTip": "Views\\Suppliers\\Details.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T21:26:18.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\PartOrders\\Index.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Index.cshtml",
-              "RelativeToolTip": "Views\\PartOrders\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:29:01.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Suppliers\\Edit.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Suppliers\\Edit.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:28:09.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Suppliers\\Index.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Index.cshtml",
-              "RelativeToolTip": "Views\\Suppliers\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:28:15.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Index.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Index.cshtml",
-              "RelativeToolTip": "Views\\SupplierTypes\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T08:19:08.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Details.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Details.cshtml",
-              "RelativeToolTip": "Views\\SupplierTypes\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:11:52.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Create.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Create.cshtml",
-              "RelativeToolTip": "Views\\SupplierTypes\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:25:59.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Edit.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Edit.cshtml",
-              "RelativeToolTip": "Views\\SupplierTypes\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:27:40.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Delete.cshtml",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Delete.cshtml",
-              "RelativeToolTip": "Views\\SupplierTypes\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T06:25:48.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Bicycle.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\Bicycle.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\Bicycle.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\Bicycle.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\Bicycle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SuppliersController.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "Controllers\\SuppliersController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAADwv5QAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.231Z",
+              "WhenOpened": "2024-06-14T20:22:18.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\ErrorViewModel.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T19:06:48.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "SupplierType.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\SupplierType.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\SupplierType.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\SupplierType.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\SupplierType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\Supplier.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\Supplier.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\Supplier.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\Supplier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PartOrder.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\PartOrder.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\PartOrder.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\PartOrder.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\PartOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T07:22:12.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PartBicycle.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\PartBicycle.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\PartBicycle.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\PartBicycle.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\PartBicycle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Part.cs",
-              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\Part.cs",
-              "RelativeDocumentMoniker": "..\\Domains\\Models\\Part.cs",
-              "ToolTip": "E:\\TPO\\Domains\\Models\\Part.cs",
-              "RelativeToolTip": "..\\Domains\\Models\\Part.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "SupplierDataService.cs",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierDataService.cs",
-              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\SupplierDataService.cs",
-              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierDataService.cs",
-              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\SupplierDataService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "SupplierTypeDataService.cs",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
-              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
-              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
-              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Servcies.csproj",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\Servcies.csproj",
-              "RelativeDocumentMoniker": "..\\Servcies\\Servcies.csproj",
-              "ToolTip": "E:\\TPO\\Servcies\\Servcies.csproj",
-              "RelativeToolTip": "..\\Servcies\\Servcies.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T21:49:11.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "PartOrderRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwCUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T07:20:04.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "PartOrderDataService.cs",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
-              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
-              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
-              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T07:36:29.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "BicycleRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "PartDataService.cs",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\PartDataService.cs",
-              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\PartDataService.cs",
-              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\PartDataService.cs",
-              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\PartDataService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwAEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 4,
               "Title": "PartsController.cs",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\PartsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PartsController.cs",
               "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\PartsController.cs",
               "RelativeToolTip": "Controllers\\PartsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJgAAAAAAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAwJUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T20:23:21.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 3,
+              "Title": "PartOrdersController.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\PartOrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartOrdersController.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\PartOrdersController.cs",
+              "RelativeToolTip": "Controllers\\PartOrdersController.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAADwv5QAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T20:22:48.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartBicyclesController.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\PartBicyclesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartBicyclesController.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\PartBicyclesController.cs",
+              "RelativeToolTip": "Controllers\\PartBicyclesController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAswG0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T20:25:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SupplierTypeRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PartRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PartBicycle.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\PartBicycle.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\PartBicycle.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\PartBicycle.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\PartBicycle.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PartOrder.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\PartOrder.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\PartOrder.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\PartOrder.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\PartOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T07:22:12.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PartBicycleRepository.cs",
               "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartBicycleRepository.cs",
               "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\PartBicycleRepository.cs",
@@ -932,111 +435,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "PartBicyclesController.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\PartBicyclesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PartBicyclesController.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\PartBicyclesController.cs",
-              "RelativeToolTip": "Controllers\\PartBicyclesController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAvAAAA",
+              "DocumentIndex": 11,
+              "Title": "20240616165148_Mig1.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Migrations\\20240616165148_Mig1.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Migrations\\20240616165148_Mig1.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Migrations\\20240616165148_Mig1.cs",
+              "RelativeToolTip": "..\\Repositories\\Migrations\\20240616165148_Mig1.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:25:40.897Z",
+              "WhenOpened": "2024-06-16T16:51:49.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "PartOrdersController.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\PartOrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PartOrdersController.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\PartOrdersController.cs",
-              "RelativeToolTip": "Controllers\\PartOrdersController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAxAAAA",
+              "DocumentIndex": 16,
+              "Title": "MainRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\MainRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\MainRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\MainRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\MainRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:22:48.928Z",
+              "WhenOpened": "2024-06-14T17:39:30.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "PartRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\PartRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "DocumentIndex": 12,
+              "Title": "20240616165130_Mig1.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Migrations\\20240616165130_Mig1.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Migrations\\20240616165130_Mig1.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Migrations\\20240616165130_Mig1.cs",
+              "RelativeToolTip": "..\\Repositories\\Migrations\\20240616165130_Mig1.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.221Z",
+              "WhenOpened": "2024-06-16T16:51:30.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\IRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "SupplierTypesController.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\SupplierTypesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SupplierTypesController.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\SupplierTypesController.cs",
-              "RelativeToolTip": "Controllers\\SupplierTypesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:20:15.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "SuppliersController.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\SuppliersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SuppliersController.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\SuppliersController.cs",
-              "RelativeToolTip": "Controllers\\SuppliersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:22:18.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "BicyclesController.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\BicyclesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BicyclesController.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\BicyclesController.cs",
-              "RelativeToolTip": "Controllers\\BicyclesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:25:09.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 15,
               "Title": "Repositories.csproj",
               "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories.csproj",
               "RelativeDocumentMoniker": "..\\Repositories\\Repositories.csproj",
@@ -1049,7 +487,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 14,
+              "Title": "BicycleDataService.cs",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\BicycleDataService.cs",
+              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\BicycleDataService.cs",
+              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\BicycleDataService.cs",
+              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\BicycleDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BicyclesContext.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Context\\BicyclesContext.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Context\\BicyclesContext.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Context\\BicyclesContext.cs",
+              "RelativeToolTip": "..\\Repositories\\Context\\BicyclesContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:24:57.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SupplierType.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\SupplierType.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\SupplierType.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\SupplierType.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\SupplierType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Part.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\Part.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\Part.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\Part.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\Part.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\Supplier.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\Supplier.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\Supplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:06:48.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Bicycle.cs",
+              "DocumentMoniker": "E:\\TPO\\Domains\\Models\\Bicycle.cs",
+              "RelativeDocumentMoniker": "..\\Domains\\Models\\Bicycle.cs",
+              "ToolTip": "E:\\TPO\\Domains\\Models\\Bicycle.cs",
+              "RelativeToolTip": "..\\Domains\\Models\\Bicycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PartOrderRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\PartOrderRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwDIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T07:20:04.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SupplierTypeDataService.cs",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
+              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
+              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
+              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\SupplierTypeDataService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Domains.csproj",
               "DocumentMoniker": "E:\\TPO\\Domains\\Domains.csproj",
               "RelativeDocumentMoniker": "..\\Domains\\Domains.csproj",
@@ -1062,7 +630,500 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parts\\Create.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Create.cshtml",
+              "RelativeToolTip": "Views\\Parts\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:39:01.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parts\\Delete.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Parts\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:39:03.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BicycleRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\BicycleRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA3wAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parts\\Details.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Details.cshtml",
+              "RelativeToolTip": "Views\\Parts\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:39:12.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parts\\Edit.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Parts\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:39:11.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parts\\Index.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Parts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Parts\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:39:19.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Edit.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\SupplierTypes\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:27:40.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Delete.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Delete.cshtml",
+              "RelativeToolTip": "Views\\SupplierTypes\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:25:48.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Create.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Create.cshtml",
+              "RelativeToolTip": "Views\\SupplierTypes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:25:59.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Details.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Details.cshtml",
+              "RelativeToolTip": "Views\\SupplierTypes\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:11:52.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Suppliers\\Create.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Create.cshtml",
+              "RelativeToolTip": "Views\\Suppliers\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:24:57.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Suppliers\\Delete.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Suppliers\\Delete.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:27:51.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bicycles\\Index.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Index.cshtml",
+              "RelativeToolTip": "Views\\Bicycles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:28:13.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PartBicycleDataService.cs",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
+              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
+              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
+              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartBicycles\\Delete.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Delete.cshtml",
+              "RelativeToolTip": "Views\\PartBicycles\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:07:42.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:39:30.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCgAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:39:30.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bicycles\\Details.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Details.cshtml",
+              "RelativeToolTip": "Views\\Bicycles\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:27:38.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bicycles\\Create.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Create.cshtml",
+              "RelativeToolTip": "Views\\Bicycles\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:27:11.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartBicycles\\Edit.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Edit.cshtml",
+              "RelativeToolTip": "Views\\PartBicycles\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:33:52.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bicycles\\Edit.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Bicycles\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:27:56.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartBicycles\\Index.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Index.cshtml",
+              "RelativeToolTip": "Views\\PartBicycles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:08:01.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartOrders\\Create.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Create.cshtml",
+              "RelativeToolTip": "Views\\PartOrders\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:28:44.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartOrders\\Delete.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\PartOrders\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:28:47.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartBicycles\\Details.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Details.cshtml",
+              "RelativeToolTip": "Views\\PartBicycles\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:07:53.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bicycles\\Delete.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Bicycles\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Bicycles\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:17:52.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartOrders\\Details.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Details.cshtml",
+              "RelativeToolTip": "Views\\PartOrders\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:28:59.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartOrders\\Edit.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Edit.cshtml",
+              "RelativeToolTip": "Views\\PartOrders\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:24:17.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartBicycles\\Create.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartBicycles\\Create.cshtml",
+              "RelativeToolTip": "Views\\PartBicycles\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:07:34.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Suppliers\\Details.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Details.cshtml",
+              "RelativeToolTip": "Views\\Suppliers\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T21:26:18.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartOrders\\Index.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\PartOrders\\Index.cshtml",
+              "RelativeToolTip": "Views\\PartOrders\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T07:29:01.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Suppliers\\Edit.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Suppliers\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:28:09.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Suppliers\\Index.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\Suppliers\\Index.cshtml",
+              "RelativeToolTip": "Views\\Suppliers\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T06:28:15.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupplierTypes\\Index.cshtml",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Views\\SupplierTypes\\Index.cshtml",
+              "RelativeToolTip": "Views\\SupplierTypes\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:19:08.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SupplierDataService.cs",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierDataService.cs",
+              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\SupplierDataService.cs",
+              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\SupplierDataService.cs",
+              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\SupplierDataService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.68Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 61,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\TPO\\BicyclesWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Servcies.csproj",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\Servcies.csproj",
+              "RelativeDocumentMoniker": "..\\Servcies\\Servcies.csproj",
+              "ToolTip": "E:\\TPO\\Servcies\\Servcies.csproj",
+              "RelativeToolTip": "..\\Servcies\\Servcies.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-14T21:49:11.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PartOrderDataService.cs",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
+              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
+              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
+              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\PartOrderDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T07:36:29.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PartDataService.cs",
+              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\PartDataService.cs",
+              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\PartDataService.cs",
+              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\PartDataService.cs",
+              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\PartDataService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:29.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\IRepository.cs",
+              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:30.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "E:\\visual studio\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\visual studio\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -1074,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 67,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1082,12 +1143,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T17:39:30.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T17:39:30.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 68,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -1097,19 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "BicyclesContext.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Context\\BicyclesContext.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Context\\BicyclesContext.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Context\\BicyclesContext.cs",
-              "RelativeToolTip": "..\\Repositories\\Context\\BicyclesContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:24:57.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 70,
               "Title": "BicyclesWeb.csproj",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\BicyclesWeb.csproj",
               "RelativeDocumentMoniker": "BicyclesWeb.csproj",
@@ -1122,79 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "SupplierRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\SupplierRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwBQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "SupplierTypeRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\AppRepositories\\SupplierTypeRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA3wBEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "MainRepository.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Repositories\\MainRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Repositories\\MainRepository.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Repositories\\MainRepository.cs",
-              "RelativeToolTip": "..\\Repositories\\Repositories\\MainRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:30.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "BicyclesContextModelSnapshot.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Migrations\\BicyclesContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Migrations\\BicyclesContextModelSnapshot.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Migrations\\BicyclesContextModelSnapshot.cs",
-              "RelativeToolTip": "..\\Repositories\\Migrations\\BicyclesContextModelSnapshot.cs",
-              "ViewState": "AQIAANkAAAAAAAAAAAAQwAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:08:39.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "20240614163928_InitDb.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Migrations\\20240614163928_InitDb.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Migrations\\20240614163928_InitDb.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Migrations\\20240614163928_InitDb.cs",
-              "RelativeToolTip": "..\\Repositories\\Migrations\\20240614163928_InitDb.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAQwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:14:19.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "20240614161107_AddCompanyMigration.cs",
-              "DocumentMoniker": "E:\\TPO\\Repositories\\Migrations\\20240614161107_AddCompanyMigration.cs",
-              "RelativeDocumentMoniker": "..\\Repositories\\Migrations\\20240614161107_AddCompanyMigration.cs",
-              "ToolTip": "E:\\TPO\\Repositories\\Migrations\\20240614161107_AddCompanyMigration.cs",
-              "RelativeToolTip": "..\\Repositories\\Migrations\\20240614161107_AddCompanyMigration.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:48:34.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Error.cshtml",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -1206,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "20240614210412_Mig1.cs",
               "DocumentMoniker": "E:\\TPO\\Repositories\\Migrations\\20240614210412_Mig1.cs",
               "RelativeDocumentMoniker": "..\\Repositories\\Migrations\\20240614210412_Mig1.cs",
@@ -1217,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -1229,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1241,31 +1217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "PartBicycleDataService.cs",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
-              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
-              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
-              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\PartBicycleDataService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.683Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 75,
-              "Title": "BicycleDataService.cs",
-              "DocumentMoniker": "E:\\TPO\\Servcies\\DbDataServcies\\BicycleDataService.cs",
-              "RelativeDocumentMoniker": "..\\Servcies\\DbDataServcies\\BicycleDataService.cs",
-              "ToolTip": "E:\\TPO\\Servcies\\DbDataServcies\\BicycleDataService.cs",
-              "RelativeToolTip": "..\\Servcies\\DbDataServcies\\BicycleDataService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:39:29.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -1277,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 76,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\TPO\\BicyclesWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",

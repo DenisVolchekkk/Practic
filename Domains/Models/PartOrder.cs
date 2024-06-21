@@ -10,9 +10,9 @@ namespace Domains.Models
         [Display(Name = "Заказ")]
         public int PartOrderId { get; set; }
         [Display(Name = "Дата заказа")]
-        public DateTime? OrderDate { get; set; }
+        public DateTime OrderDate { get; set; }
         [Display(Name = "Дата выполнения заказа")]
-        public DateTime? ExpectedDeliveryDate { get; set; }
+        public DateTime ExpectedDeliveryDate { get; set; }
         [Display(Name = "Модель велосипеда")]
         public int BicycleId { get; set; }
         [Display(Name = "Кол-во велосипедов")]

@@ -57,7 +57,7 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.AddAsync(supplierType);
+                await _context.AddAsync(supplierType);
                 return RedirectToAction(nameof(Index));
             }
             return View(supplierType);
@@ -95,7 +95,7 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.UpdateAsync(supplierType);
+                    await _context.UpdateAsync(supplierType);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -130,11 +130,11 @@ namespace BicyclesWeb.Controllers
         {
             var supplierType = await _context.GetAsync(id);
             if (supplierType != null)
-            {
-                _context.DeleteAsync(supplierType);
+            {    
+               await _context.DeleteAsync(supplierType);
             }
 
-            return RedirectToAction(nameof(Index));
+            return  RedirectToAction(nameof(Index));
         }
 
 

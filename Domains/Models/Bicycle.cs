@@ -9,7 +9,7 @@ namespace Domains.Models
         [Key]
         public int BicycleId { get; set; }
         [Display(Name = "Модель")]
-        public string? ModelName { get; set; }
+        public string ModelName { get; set; }
 
         public virtual ICollection<PartBicycle> PartBicycles { get; set; } = new List<PartBicycle>();
         public virtual ICollection<PartOrder> PartOrders { get; set; } = new List<PartOrder>();

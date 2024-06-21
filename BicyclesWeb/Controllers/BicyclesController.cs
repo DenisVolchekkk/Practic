@@ -59,7 +59,7 @@ namespace BicyclesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.AddAsync(bicycle);
+                await _context.AddAsync(bicycle);
                 return RedirectToAction(nameof(Index));
             }
             return View(bicycle);
@@ -97,7 +97,7 @@ namespace BicyclesWeb.Controllers
             {
                 try
                 {
-                    _context.UpdateAsync(bicycle);
+                    await _context.UpdateAsync(bicycle);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -140,7 +140,7 @@ namespace BicyclesWeb.Controllers
             var bicycle = await _context.GetAsync(id);
             if (bicycle != null)
             {
-                _context.DeleteAsync(bicycle);
+                await _context.DeleteAsync(bicycle);
             }
 
             await _context.SaveChangesAsync();

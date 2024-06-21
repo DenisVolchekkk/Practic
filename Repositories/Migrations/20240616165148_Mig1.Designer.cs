@@ -12,8 +12,8 @@ using Repositories.Context;
 namespace Repositories.Migrations
 {
     [DbContext(typeof(BicyclesContext))]
-    [Migration("20240614163928_InitDb")]
-    partial class InitDb
+    [Migration("20240616165148_Mig1")]
+    partial class Mig1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,6 +34,7 @@ namespace Repositories.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BicycleId"));
 
                     b.Property<string>("ModelName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("BicycleId");
@@ -50,12 +51,14 @@ namespace Repositories.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PartId"));
 
                     b.Property<string>("PartDescription")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PartName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("SupplierId")
+                    b.Property<int>("SupplierId")
                         .HasColumnType("int");
 
                     b.HasKey("PartId");
@@ -73,13 +76,13 @@ namespace Repositories.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PartBicycleId"));
 
-                    b.Property<int?>("BicycleId")
+                    b.Property<int>("BicycleId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PartId")
+                    b.Property<int>("PartId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("QuantityRequired")
+                    b.Property<int>("QuantityRequired")
                         .HasColumnType("int");
 
                     b.HasKey("PartBicycleId");
@@ -105,10 +108,10 @@ namespace Repositories.Migrations
                     b.Property<int>("CountofBicycles")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("ExpectedDeliveryDate")
+                    b.Property<DateTime>("ExpectedDeliveryDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("OrderDate")
+                    b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("PartOrderId");
@@ -127,15 +130,18 @@ namespace Repositories.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SupplierId"));
 
                     b.Property<string>("Address")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactInfo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SupplierName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("SupplierTypeId")
+                    b.Property<int>("SupplierTypeId")
                         .HasColumnType("int");
 
                     b.HasKey("SupplierId");
@@ -154,6 +160,7 @@ namespace Repositories.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SupplierTypeId"));
 
                     b.Property<string>("SupplierTypeName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("SupplierTypeId");
@@ -165,7 +172,9 @@ namespace Repositories.Migrations
                 {
                     b.HasOne("Domains.Models.Supplier", "Supplier")
                         .WithMany("Parts")
-                        .HasForeignKey("SupplierId");
+                        .HasForeignKey("SupplierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Supplier");
                 });
@@ -174,11 +183,15 @@ namespace Repositories.Migrations
                 {
                     b.HasOne("Domains.Models.Bicycle", "Bicycle")
                         .WithMany("PartBicycles")
-                        .HasForeignKey("BicycleId");
+                        .HasForeignKey("BicycleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Domains.Models.Part", "Part")
                         .WithMany("PartBicycles")
-                        .HasForeignKey("PartId");
+                        .HasForeignKey("PartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Bicycle");
 
@@ -200,7 +213,9 @@ namespace Repositories.Migrations
                 {
                     b.HasOne("Domains.Models.SupplierType", "SupplierType")
                         .WithMany("Suppliers")
-                        .HasForeignKey("SupplierTypeId");
+                        .HasForeignKey("SupplierTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("SupplierType");
                 });
