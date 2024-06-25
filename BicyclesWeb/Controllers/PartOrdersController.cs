@@ -6,8 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domains.Models;
+using Domains.ViewModels;
 using Repositories.Context;
 using Repositories.Repositories.AppRepositories;
+using ClosedXML.Excel;
 
 namespace BicyclesWeb.Controllers
 {
@@ -42,10 +44,109 @@ namespace BicyclesWeb.Controllers
             {
                 return NotFound();
             }
+            var totalPartsRequired = partOrder.Bicycle.PartBicycles
+                .GroupBy(pb => pb.Part)
+                .Select(g => new PartOrderViewModel
+                {
+                    PartName = g.Key.PartName,
+                    TotalQuantity = g.Sum(pb => pb.QuantityRequired * partOrder.CountofBicycles)
+                }).ToList();
+
+            var totalDays = (partOrder.ExpectedDeliveryDate - partOrder.OrderDate).TotalDays;
+            var partsPerDay = totalPartsRequired
+                .Select(p => new PartOrderViewModel
+                {
+                    PartName = p.PartName,
+                    DailyQuantity = totalDays == 0 ? 0 : ((double)p.TotalQuantity / (double)totalDays)
+                }).ToList();
+
+            ViewData["TotalPartsRequired"] = totalPartsRequired;
+            ViewData["PartsPerDay"] = partsPerDay;
 
             return View(partOrder);
         }
+        [HttpPost]
+        public async Task<IActionResult> ExportToExcel(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            var partOrder = await _context.GetAsync(id);
+
+            if (partOrder == null)
+            {
+                return NotFound();
+            }
+
+            var totalPartsRequired = partOrder.Bicycle.PartBicycles
+                .GroupBy(pb => pb.Part)
+                .Select(g => new PartOrderViewModel
+                {
+                    PartName = g.Key.PartName,
+                    TotalQuantity = g.Sum(pb => pb.QuantityRequired * partOrder.CountofBicycles)
+                }).ToList();
+
+            var totalDays = (partOrder.ExpectedDeliveryDate - partOrder.OrderDate).TotalDays;
+            var partsPerDay = totalPartsRequired
+                .Select(p => new PartOrderViewModel
+                {
+                    PartName = p.PartName,
+                    DailyQuantity = totalDays == 0 ? 0 : ((double)p.TotalQuantity / (double)totalDays)
+                }).ToList();
+
+            using (var workbook = new XLWorkbook())
+            {
+                var worksheet = workbook.Worksheets.Add("PartOrderDetails");
+
+                worksheet.Cell(1, 1).Value = "Заказ";
+                worksheet.Cell(2, 1).Value = "Дата заказа";
+                worksheet.Cell(2, 2).Value = partOrder.OrderDate;
+                worksheet.Cell(3, 1).Value = "Дата выполнения заказа";
+                worksheet.Cell(3, 2).Value = partOrder.ExpectedDeliveryDate;
+                worksheet.Cell(4, 1).Value = "Кол-во велосипедов";
+                worksheet.Cell(4, 2).Value = partOrder.CountofBicycles;
+                worksheet.Cell(5, 1).Value = "Модель велосипеда";
+                worksheet.Cell(5, 2).Value = partOrder.Bicycle.ModelName;
+
+                worksheet.Cell(7, 1).Value = "Общее количество деталей для всех велосипедов";
+                worksheet.Cell(8, 1).Value = "Название детали";
+                worksheet.Cell(8, 2).Value = "Общее количество";
+
+                var row = 9;
+                foreach (var part in totalPartsRequired)
+                {
+                    worksheet.Cell(row, 1).Value = part.PartName;
+                    worksheet.Cell(row, 2).Value = part.TotalQuantity;
+                    row++;
+                }
+
+                row += 2;
+                worksheet.Cell(row, 1).Value = "Количество деталей для производства за один день";
+                worksheet.Cell(row + 1, 1).Value = "Название детали";
+                worksheet.Cell(row + 1, 2).Value = "Количество в день";
+
+                row += 2;
+                foreach (var part in partsPerDay)
+                {
+                    worksheet.Cell(row, 1).Value = part.PartName;
+                    worksheet.Cell(row, 2).Value = part.DailyQuantity;
+                    row++;
+                }
+
+                using (var stream = new MemoryStream())
+                {
+                    workbook.SaveAs(stream);
+                    var content = stream.ToArray();
+
+                    return File(
+                        content,
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "PartOrderDetails.xlsx");
+                }
+            }
+        }
         // GET: PartOrders/Create
         public IActionResult Create()
         {

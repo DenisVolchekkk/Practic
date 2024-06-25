@@ -11,33 +11,95 @@
     <h4>Заказ</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.OrderDate)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.OrderDate)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.ExpectedDeliveryDate)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.ExpectedDeliveryDate)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.CountofBicycles)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.CountofBicycles)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Bicycle)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Bicycle.ModelName)
         </dd>
     </dl>
 </div>
+
+<div>
+    <h4>Общее количество деталей для всех велосипедов</h4>
+    @if (ViewData["TotalPartsRequired"] is List<Domains.ViewModels.PartOrderViewModel> totalPartsRequired && totalPartsRequired.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название детали</th>
+                    <th>Общее количество</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var part in totalPartsRequired)
+                {
+                    <tr>
+                        <td>@part.PartName</td>
+                        <td>@part.TotalQuantity</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Нет данных для отображения.</p>
+    }
+</div>
+
+<div>
+    <h4>Количество деталей для производства за один день</h4>
+    @if (ViewData["PartsPerDay"] is List<Domains.ViewModels.PartOrderViewModel> partsPerDay && partsPerDay.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название детали</th>
+                    <th>Количество в день</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var part in partsPerDay)
+                {
+                    <tr>
+                        <td>@part.PartName</td>
+                        <td>@part.DailyQuantity</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Нет данных для отображения.</p>
+    }
+</div>
+
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.PartOrderId">Обновить</a> |
     <a asp-action="Index">Вернуться</a>
 </div>
+
+<form asp-action="ExportToExcel" method="post">
+    <input type="hidden" name="id" value="@Model.PartOrderId" />
+    <button type="submit" class="btn btn-primary">Экспорт в Excel</button>
+</form>

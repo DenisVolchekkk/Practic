@@ -35,7 +35,9 @@ namespace Repositories.Repositories.AppRepositories
 
         public async Task<PartOrder> GetAsync(int id)
         {
-            return await _context.PartOrders.Include(p => p.Bicycle)
+            return await _context.PartOrders.Include(po => po.Bicycle)
+                .ThenInclude(b => b.PartBicycles)
+                .ThenInclude(pb => pb.Part)
                 .FirstOrDefaultAsync(b => b.BicycleId == id);
         }
 

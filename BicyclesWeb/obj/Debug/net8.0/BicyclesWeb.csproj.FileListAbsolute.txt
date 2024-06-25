@@ -267,3 +267,10 @@ E:\TPO\BicyclesWeb\obj\Debug\net8.0\refint\BicyclesWeb.dll
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.pdb
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\BicyclesWeb.genruntimeconfig.cache
 E:\TPO\BicyclesWeb\obj\Debug\net8.0\ref\BicyclesWeb.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\ClosedXML.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\ExcelNumberFormat.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\Irony.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\SixLabors.Fonts.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\System.IO.Packaging.dll
+E:\TPO\BicyclesWeb\bin\Debug\net8.0\XLParser.dll
